@@ -1,0 +1,75 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the message card container */
+.message-card {
+    max-width: 400px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Styling for the message header */
+.message-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.message-header h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.message-header p {
+    font-size: 14px;
+}
+
+/* Styling for the message content */
+.message-content {
+    padding: 10px;
+}
+/* Basic button styles */
+button.delete {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button hover effect */
+  button.delete:hover {
+    background-color: #c82333;
+
+  }
+  button.update {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #3cc823;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  button.update:hover {
+    background-color: #3cc823;
+
+  }
+  
