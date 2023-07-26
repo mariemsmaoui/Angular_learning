@@ -10,6 +10,6 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 this project was developed to learn more about angular framework by following a udemy course
 
-## Elemnts
+## Components
 
 i created a ccrud  using fake api store 
